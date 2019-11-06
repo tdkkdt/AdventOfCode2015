@@ -6,7 +6,18 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Compile Include="Program.fs"/>
+        <Compile Include="Checker.fs" />
+        <Compile Include="Day1_1.fs" />
+        <Compile Include="Day1_2.fs" />
+        <Compile Include="Day2_1.fs" />
+        <Compile Include="Day2_2.fs" />
+        <Compile Include="Day3_1.fs" />
+        <Compile Include="Day3_2.fs" />
+        <Compile Include="Day4_1.fs" />
+        <Compile Include="Day4_2.fs" />
+        <Compile Include="Day5_1.fs" />
+        <Compile Include="Day5_2.fs" />
+        <Compile Include="Program.fs" />
     </ItemGroup>
 
 </Project>
