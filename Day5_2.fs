@@ -33,18 +33,18 @@ let ``do`` =
     Checker.check false (checkTwice "aaa")
     
     Checker.check true (checkTwice "qjhvhtzxzqqjkmpb")
-//    Checker.check true (checkBetween "qjhvhtzxzqqjkmpb")
-//    Checker.check true (solve "qjhvhtzxzqqjkmpb")
+    Checker.check true (checkBetween "qjhvhtzxzqqjkmpb")
+    Checker.check true (solve "qjhvhtzxzqqjkmpb")
     
     Checker.check true (checkTwice "xxyxx")
-//    Checker.check true (checkBetween "xxyxx")
-//    Checker.check true (solve "xxyxx")
+    Checker.check true (checkBetween "xxyxx")
+    Checker.check true (solve "xxyxx")
     
     Checker.check true (checkTwice "uurcxstgmygtbstg")
-//    Checker.check false (checkBetween "uurcxstgmygtbstg")
-//    Checker.check false (solve "uurcxstgmygtbstg")
+    Checker.check false (checkBetween "uurcxstgmygtbstg")
+    Checker.check false (solve "uurcxstgmygtbstg")
     
     Checker.check false (checkTwice "ieodomkazucvgmuy")
-//    Checker.check true (checkBetween "ieodomkazucvgmuy")
-//    Checker.check false (solve "ieodomkazucvgmuy")
-//    solveRealInput
+    Checker.check true (checkBetween "ieodomkazucvgmuy")
+    Checker.check false (solve "ieodomkazucvgmuy")
+    solveRealInput
