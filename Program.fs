@@ -4,5 +4,5 @@ open AOC2015
 
 [<EntryPoint>]
 let main argv =
-    Day6_2.``do``
+    Day7_2.``do``
     0
